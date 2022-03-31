@@ -1,0 +1,66 @@
+:root {
+    --MF-White-3:#E9E9E9;
+
+    --MF-Grey-2:#ABA8A8;
+    --MF-Grey-5:#161616;
+    --MF-Grey-5-Shadow:rgba(22, 22, 22, 0.25);
+
+    --MF-Green-1:#71E484;
+    --MF-Green-2:#36C84D;
+    --MF-Green-3:#19942D;
+
+    --MF-Yellow-1:#ECE33E;
+}
+
+body {
+    background-color:var(--MF-White-3);
+    color:var(--MF-Grey-5);
+    font-family:"Baloo Thambi 2";
+    text-align:center;
+}
+
+div {
+    padding:16px;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+div.header {
+    background-color:var(--MF-Green-1);
+    border:2px solid var(--MF-Green-2);
+    border-radius:7px;
+
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+}
+div.textbox, div.textbox img {
+    border:2px solid var(--MF-Grey-2); 
+    border-radius:7px;
+    box-shadow: 0px 4px 4px var(--MF-Grey-5-Shadow);
+
+    margin-left:64px;
+    margin-right:64px;
+}
+
+
+h1 {
+    font-size:36px;
+}
+p, a {
+    font-size:14px;
+}
+
+a.button:link, a.button:visited {
+    background-color:var(--MF-Green-3);
+    border-radius:7px;
+    padding: 12px;
+    color:var(--MF-White-3);
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 0px 4px 4px var(--MF-Grey-5-Shadow);
+    display: inline-block;
+}
+a.button:hover, a.button:active {
+    background-color:var(--MF-Green-2);
+    color:var(--MF-White-3);
+}

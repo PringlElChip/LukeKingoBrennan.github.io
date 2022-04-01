@@ -54,6 +54,9 @@ h1 {
 p, a {
     font-size:14px;
 }
+abbr {
+    text-decoration: none;
+}
 
 a.button:link, a.button:visited {
     border-radius:7px;

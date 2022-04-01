@@ -29,9 +29,9 @@ div.header {
     border:2px solid var(--MF-Green-2);
     border-radius:7px;
 
-    margin-top:-10px;
-    margin-left:-10px;
-    margin-right:-10px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
 }
 div.textbox {
     border:2px solid var(--MF-Grey-2); 

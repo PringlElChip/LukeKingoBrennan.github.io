@@ -3,6 +3,7 @@
 
     --MF-Grey-2:#ABA8A8;
     --MF-Grey-5:#161616;
+    --MF-Grey-4:#3E3E3E;
     --MF-Grey-5-Shadow:rgba(22, 22, 22, 0.25);
 
     --MF-Green-1:#71E484;
@@ -41,7 +42,12 @@ div.textbox {
     margin-left:64px;
     margin-right:64px;
 }
-div.textbox img {
+div.dark {
+    border:2px solid var(--MF-Grey-5); 
+    color: var(--MF-White-3);
+    background-color: var(--MF-Grey-4);
+}
+img {
     border:2px solid var(--MF-Green-3); 
     border-radius:7px;
     box-shadow: 0px 4px 4px var(--MF-Grey-5-Shadow);
